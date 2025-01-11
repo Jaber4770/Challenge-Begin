@@ -125,10 +125,12 @@ nav ul button {
     justify-content: center;
     align-items: center;
 }
-.second-code{
+
+.second-code {
     background: linear-gradient(to left, white, rgba(255, 255, 255, 0));
     flex-direction: row-reverse;
 }
+
 .code p {
     opacity: 0.7;
     padding: 16px 0 32px 0;
@@ -144,4 +146,85 @@ nav ul button {
 
 .code img {
     width: 100%;
+}
+
+/* inspiration section style */
+.inspiration div {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.inspiration p {
+    opacity: 0.7;
+    padding: 50px 0;
+}
+
+.inspiration-video {
+    border: 1px solid gray;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.inspiration-video iframe {
+    border-radius: 16px;
+    width: 100%;
+    height: 550px;
+}
+
+/* current info style */
+.current-target-info {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.current-target-info h1 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.current-target-info p {
+    padding: 24px 0 48px 0;
+}
+
+.learnig-cart-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.learning-cart h1 {
+    font-size: 24px;
+    font-weight: 800;
+}
+.cart-1 {
+    background-color: aqua;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.cart-2 {
+    background-color: aqua;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.cart-3 {
+    background-color: aqua;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
 }
