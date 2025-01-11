@@ -21,7 +21,8 @@ button {
 section {
     margin: 65px 0;
 }
-.text-gray{
+
+.text-gray {
     opacity: 0.7;
 }
 
@@ -202,6 +203,7 @@ nav ul button {
     font-size: 24px;
     font-weight: 800;
 }
+
 .cart-1 {
     background-color: aqua;
     padding: 40px;
@@ -231,37 +233,57 @@ nav ul button {
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
 }
-.cart-1 a, .cart-2 a, .cart-3 a{
+
+.cart-1 a,
+.cart-2 a,
+.cart-3 a {
     color: rgb(80, 80, 80);
 }
+
 /* next target section style */
-.next-target-info , .next-target-info>p{
+.next-target-info,
+.next-target-info>p {
     width: 80%;
     margin: 0 auto;
     text-align: center;
 }
-.next-target-container{
+
+.next-target-container {
     display: flex;
     flex-direction: column;
     gap: 24px;
     margin-top: 24px;
 }
-.next-target-cart{
+
+.next-target-cart {
     border: 1px solid lightgray;
     border-radius: 8px;
     padding: 40px;
     display: flex;
     gap: 24px;
 }
-.next-target-cart-2{
+
+.next-target-cart-2 {
     flex-direction: row-reverse;
 }
-.next-target-cart-info{
-display: flex;
-flex-direction: column;
-gap: 20px;
+
+.next-target-cart-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
-.next-target-cart-info> a, p{
+
+.next-target-cart-info>a,
+p {
     opacity: 0.7;
     color: black;
+}
+
+/* footer style */
+footer > div {
+    background: rgba(13, 19, 33, 0.03);
+    padding: 30px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
