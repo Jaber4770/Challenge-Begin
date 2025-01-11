@@ -279,8 +279,65 @@ p {
     color: black;
 }
 
+/* send-me-email */
+
+.send-me-email {
+    background-image: url(assets/handshake.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 64px 48px;
+    text-align: center;
+    border-radius: 16px;
+    background-position: center;
+}
+
+.send-me-email p {
+    color: white;
+}
+
+.send-me-email-info {
+    padding: 0 157px;
+}
+
+.send-me-email-info h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.ask-me input[type="text"] {
+    padding: 19px 20px;
+    width: 548px;
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.ask-me button {
+    padding: 19px 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    font-size: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: none;
+    background-color: white;
+    border: none;
+}
+
+
+
+
+
 /* footer style */
-footer > div {
+footer>div {
     background: rgba(13, 19, 33, 0.03);
     padding: 30px 150px;
     display: flex;
